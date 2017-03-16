@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>三栏式布局</title>
+	<style type="text/css">
+		.box1 {
+			padding: 20px;
+			background: #eee;
+			border: 1px solid #999;
+			height: 100%;
+		}
+
+		.box2 {
+			margin: 20px 0px 20px 0px;
+			padding: 20px;
+			background: white;
+			border: 1px solid #999;
+			width: 200px;
+			float: left;
+			position: absolute;
+			left: 20px;
+			top: 20px;
+		}
+
+		.box3 {
+			padding: 20px;
+			background: #eee;
+			border: 1px solid #999;
+			width: 80px;
+			height: 80px;
+		}
+
+		.box4 {
+			margin: 10px 180px 20px 260px;
+			padding: 20px;
+			background: white;
+			border: 1px solid #999;
+		}
+
+		.box5 {
+			margin: 20px 0px 20px 0px;
+			padding: 0px 20px 0px 20px;
+			background: white;
+			border: 1px solid #999;
+			width: 120px;
+			float: right;
+			position: absolute;
+			right: 20px;
+			top: 20px;
+		}
+
+		.box6 {
+			margin: 20px 0px 20px 0px;
+			padding: 20px;
+			background: #eee;
+			border: 1px solid #999;
+			width: 80px;
+			height: 80px;
+		}
+
+		#a {
+			float: right;
+		}
+
+		#b {
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="box1" id="one">
+		<div class="box2" id="two">
+			<p id="a">团队名称</p>
+			<div class="box3" id="three">
+				<p id="b">团队LOGO</p>
+			</div>
+		</div>
+
+		<div class="box4" id="four">
+			<p>关于你们的团队的介绍。</p>
+			<p>可以给我们解释一下团队名称的来历，或者分别极少你们的团队成员。</p>
+			<p>（以下为示例）</p>
+			<p>百度Web前端技术学院（8aidu institute of front-end technology简称IFE）是一个由百度人力资源部校园招聘组、歹毒EFE团队联合出品的、面向在校大学生以及对前端技术有兴趣的前端工程师以及丰富的前端知识积累，帮助人们更加有趣、搞笑、系统地学习Web前端技术。</p>
+			<p>2016年春季班概述</p>
+			<p>一年之计在于春，经过漫长的冬季，又是开学之际，众多莘莘学子分分又回到了校园，投入学习之中。百度前端技术学院也在此时为大家带来了一道前端学习的饕餮盛宴。经过2年多的尝试与摸索，我们去人了事件、交流与分享，对于技术学习而言，是非常有效且搞笑的分段，因此，本次春季班，我们特别单间了一个线上平台系统，通过多这个系统向学员们发送编码任务，学员们在这个系统上提交作业地址，进行相互的代码评审（Code Review）与评价，同时在平台中鸡肋自己的学习总结笔记并分享给大家。为了让大家更加有动力进行这个邪学习方式，我们在整个春季班的学习过程中，融入了竞赛模式，任务完成得好的，评价仔细认真的，笔记写得对他人有帮主的，我们都会通过一套积分系统来进行排名。在头一个半月的任务“闯关”之后，我们还特意安排了一个很有挑战性，能够发挥大家创新能力的大任务环节，具体任务当然暂时保密。这个终极BOSS的挑战会作为整个春季班的最终环节。</p>
+		</div>
+
+		<div class="box5" id="five">
+			<div class="box6" id="six"></div>
+			<div class="box6" id="seven"></div>
+			<div class="box6" id="eight"></div>
+			<div class="box6" id="nine"></div>
+		</div>
+	</div>
+</body>
+</html>
